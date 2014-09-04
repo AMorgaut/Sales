@@ -1,0 +1,49 @@
+{
+  "name": "CustomWidget",
+  "studioName": "CustomWidget",
+  "category": "Custom Widgets",
+  "iconPath": "/icons/widget.png",
+  "author": "Mohamed IDRISSI",
+  "contributors": [],
+  "version": "1.0.0",
+  "copyright": "(c) 2014 Widget Developer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer/Widget.git"
+  },
+  "keywords": [
+    "wakanda",
+    "widget"
+  ],
+  "engines": {
+    "wakanda": ">= 8"
+  },
+  "license": "MIT",
+  "loadDependencies": [
+    {
+      "id": "Widget_V2"
+    },
+    {
+      "id": "CustomWidget/widget.js",
+      "version": "1.0.0",
+      "path": "WIDGETS_CUSTOM"
+    },
+    {
+      "id": "CustomWidget/css/widget.css",
+      "version": "1.0.0",
+      "path": "WIDGETS_CUSTOM"
+    },
+    {
+      "id": "CustomWidget/designer.js",
+      "studioOnly": true,
+      "version": "1.0.0",
+      "path": "WIDGETS_CUSTOM"
+    },
+    {
+      "id": "CustomWidget/js/raphael.1.0.0.min.js",
+      "studioOnly": false,
+      "version": "1.0.0",
+      "path": "WIDGETS_CUSTOM"
+    }
+  ]
+}
